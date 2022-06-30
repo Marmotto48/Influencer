@@ -1,0 +1,90 @@
+.shadow-2 {
+  box-shadow: 3px 2px 10px -6px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 3px 2px 10px -6px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 3px 2px 10px -6px rgba(0, 0, 0, 0.7);
+}
+.dashboard .DH-section-1 .container {
+  width: 200px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  /* display: flex; */
+  font-size: 26px;
+  color: aliceblue;
+}
+.dashboard .DH-section-1 .container .header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: aqua; */
+}
+
+.dashboard .DH-section-1 {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 15px;
+  justify-content: space-between;
+  /* border: 1px solid rgba(71, 70, 70, 0.3); */
+}
+.dashboard .DH-section-1 .container p {
+  font-size: 16px;
+}
+.dashboard .DH-section-1 .container span {
+  font-size: 20px;
+  /* font-weight: bold; */
+  text-align: center;
+}
+.dashboard .DH-section-1 .container:before {
+  background: inherit;
+}
+/************section 2 ************/
+.dashboard .DH-section-2 {
+  background-color: transparent;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  row-gap: 10px;
+  flex-wrap: wrap;
+  background-color: hsl(240deg 7% 97%);
+}
+
+.dashboard .DH-section-2 .container {
+  width: 350px;
+  /* height: 80px; */
+  /* background-color: #ABBAEA; */
+  /* backdrop-filter: blur(5px); */
+  background: white;
+
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.dashboard .DH-section-2 .container p {
+  font-size: 12px;
+  color: grey;
+  font-family: serif;
+}
+.dashboard .DH-section-2 .container h6 {
+  font-family: math;
+  font-size: 15px;
+  margin: 0;
+  letter-spacing: 0.2rem;
+}
+.dashboard .DH-section-2 .container .container-foot {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+/**********SECTION 3**********************/
+.dashboard .DH-section-3 {
+  background-color: transparent;
+  margin: 20px;
+  padding: 20px;
+  background-color: hsl(240deg 7% 97%);
+  /* border: 1px solid rgba(71, 70, 70, 0.3); */
+  display: flex;
+  gap: 10px;
+}

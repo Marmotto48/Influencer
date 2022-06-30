@@ -1,0 +1,116 @@
+.topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+.topbar-header {
+  background-color: rgb(15, 6, 73);
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px 0 40px;
+  /* height: 50px; */
+  /* position: sticky; */
+  /* top: 0; */
+  /* position: fixed; */
+  /* width: 900px; */
+  transition: background-color 0.5s ease;
+  color: whitesmoke;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.15em;
+}
+
+.colorChange {
+  transition: background-color 0.5s ease;
+  /* background-color: rgba(70, 9, 168, 0.849); */
+  background-color: rgba(245, 245, 245, 0.966);
+  box-shadow: 1px 2px 5px grey;
+  color: black;
+}
+.topbar-nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  width: 900px;
+}
+
+.topbar-options {
+  /* padding-left: 25px; */
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* width: 100px; */
+  align-content: center;
+  /* background-color: tomato; */
+  gap: 20px;
+}
+
+.mobile-option {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+.menu-icon {
+  display: none;
+}
+.icon-desc {
+  margin-left: 15px;
+  display: none;
+  /* background-color: violet; */
+  color: white;
+}
+
+.topbar-options .link a {
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+
+.topbar-options .link-a a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #3f7fbf;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.topbar-options .link-a a:hover:after {
+  width: 100%;
+  left: 0;
+}
+.topbar-icons-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: red;
+}
+.topbar-icons {
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+  /* margin-right: 10px; */
+}
+.topbar-icons:hover {
+  color: grey;
+}

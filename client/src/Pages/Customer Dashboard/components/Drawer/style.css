@@ -1,0 +1,14 @@
+.search-left h6,
+.search-right h6 {
+  margin: 30px 0px 0px 0px;
+  font-size: 12px;
+}
+.close-icon {
+  display: none;
+}
+
+@media (max-width: 648px) {
+  .close-icon {
+    display: block;
+  }
+}
